@@ -1,0 +1,95 @@
+
+body {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    height: 80vh;
+    margin: 0;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.headImg{
+   display: block;
+}
+.headImg img {
+    width: 100%;
+    height: auto;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.container{
+    position: relative;
+    margin: 0 auto;
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.titleContainer {
+    display: flex;
+    align-items: center;
+}
+
+.titleContainer img {
+    margin-right: 20px;
+    margin-left:  -2px;
+}
+
+
+.roundedButton {
+    padding: 10px auto;
+    font-size: 12px;
+    background-color:hsl(273, 98%, 60%);
+    color: hsl(0, 0%, 100%);
+    border: 1px solid;
+    border-radius: 25px;
+    cursor: pointer;
+    line-height: 1.5; /* Adjust line height if needed */
+    transition: background-color 0.3s;
+}
+
+.roundedButton:hover {
+    background-color: hsl(292, 42%, 14%);
+}
+
+h3 {
+    text-align: center;
+    margin: 40px 0;
+}
+.text h3 {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    font-size: 16px;
+    color: hsl(292, 42%, 14%)
+}
+
+.title{
+    margin: 0;
+    font-weight: bold;
+    color: hsl(292, 42%, 14%)
+}
+
+.content{
+    display: none;
+    color: hsl(292, 16%, 49%)
+}
+
+p{
+    text-align: left;
+}
+
+.attribution{
+    text-align: left;
+}
